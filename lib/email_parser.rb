@@ -17,6 +17,4 @@ email_addresses = "asd@qw.com, per@er.org, Zaza@sugar.net"
 parser = EmailAddressParser.new(email_addresses)
 parser.parse
 
-emails2 = "asd@qw.com per@er.org per@er.org Zaza@sugar.net"
-parser2 = EmailParser.new(emails2)
-parser2.parse
+
