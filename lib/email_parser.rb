@@ -16,5 +16,3 @@ end
 email_addresses = "asd@qw.com, per@er.org, Zaza@sugar.net"
 parser = EmailAddressParser.new(email_addresses)
 parser.parse
-
-
