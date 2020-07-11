@@ -13,6 +13,6 @@ class EmailAddressParser
 end
 end
 
-email_addresses = "asd@qw.com, per@er.org, Zaza@sugar.net"
+email_addresses = "john@doe.com, person@somewhere.com"
 parser = EmailAddressParser.new(email_addresses)
 parser.parse
